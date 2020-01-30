@@ -12,7 +12,7 @@ Original file is located at
 """
 
 import pickle
-import dill as pickle
+#import dill as pickle
 import pandas as pd
 import spacy
 import numpy as np

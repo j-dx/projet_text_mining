@@ -137,7 +137,7 @@ def generate_text(model, start_string):
 """## Création du chatbot"""
 
 # On stock la réponse de l'utilisateur
-q = input("Bonjour, je suis là pour vous aider ! ")
+q = input("Bonjour, je suis là pour vous aider à organiser votre voyage ! ")
 i=1
 while(i==1):
   # traitement de la question de l'utilisateur

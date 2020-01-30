@@ -82,7 +82,7 @@ def substitute_agence(text, replacement='AGENCE'):
 
 """## Importations pour la génération de texte"""
 
-model = tf.keras.models.load_model('model_caractCOURT.h5')
+model = tf.keras.models.load_model('model_caractCOURT.h5', compile=False)
 #model.summary()
 
 """La fonction generate_text permet de générer du texte à partir du corpus."""

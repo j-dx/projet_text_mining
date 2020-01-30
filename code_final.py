@@ -46,7 +46,7 @@ model_binaire = pickle.load(open('classif_binaire_proba', 'rb'))
 
 vector_binaire = pickle.load(open('bin_vectorizer_proba', 'rb'))
 
-faq = pickle.load(open('faq', 'rb'))
+faq = pickle.load(open('faq.pick', 'rb'))
 
 texts = pickle.load(open('texts', 'rb'))
 
